@@ -1,6 +1,11 @@
-name: Plugin
-main: dev.alexzvn.plugin.Plugin
-
-author: Alexzvn
-descriptions: A simple plugin
-version: 0.0.1
+name: AdvancedPet
+main: fr.nocsy.almpet.AdvancedPet
+version: 0.2.1
+description: Plugin made by Nocsy
+depends: [WorldGuard, MythicMobs, ModelEngine vR2.2.0]
+author: Nocsy
+api-version: 1.16
+commands:
+  advancedpet:
+    description: Command to manage your pets
+    Usage: /advancedpet
